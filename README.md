@@ -1,12 +1,13 @@
-# JMH benchmarks with sbt-jmh plugin
+# JMH benchmarks with sbt
 
 In order to run selected benchmark:
 
+    sbt
     run -i 10 -wi 10 -f1 -t1 org.openjdk.jmh.samples.RandomSampling.*
 
 
-## Results
-# RandomSampling
+# Results
+## RandomSampling
 
     run com.akomar.scalaperf.RandomSampling.*
 (default settings, 10 forks/20 warmup iterations/20 iterations)
