@@ -4,6 +4,8 @@ name := """sbt-jmh-seed"""
 
 version := "1.0-SNAPSHOT"
 
+scalaVersion := "2.11.7"
+
 jmhSettings
 
 outputTarget in Jmh := target.value / s"scala-${scalaBinaryVersion.value}"
